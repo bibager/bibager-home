@@ -22,11 +22,26 @@ header {
     margin-bottom: 48px;
 }
 
+.header-title {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 8px;
+}
+
+.mascot {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
 header h1 {
     font-size: 40px;
     font-weight: 700;
     letter-spacing: -0.5px;
-    margin-bottom: 8px;
+    margin-bottom: 0;
 }
 
 .subtitle {
@@ -116,6 +131,11 @@ footer p {
 @media (max-width: 480px) {
     .container {
         padding: 48px 16px 32px;
+    }
+
+    .mascot {
+        width: 48px;
+        height: 48px;
     }
 
     header h1 {
