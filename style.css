@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background-color: #ffffff;
+    color: #37352f;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 80px 24px 40px;
+}
+
+header {
+    margin-bottom: 48px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #787774;
+}
+
+.projects h2 {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #787774;
+    margin-bottom: 16px;
+}
+
+.project-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.project-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 20px;
+    border: 1px solid #e8e8e5;
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+a.project-card:hover {
+    background-color: #fafafa;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.project-card.coming-soon {
+    opacity: 0.55;
+    border-style: dashed;
+}
+
+.card-icon {
+    font-size: 28px;
+    line-height: 1;
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f7f7f5;
+    border-radius: 6px;
+}
+
+.card-content h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.card-content p {
+    font-size: 14px;
+    color: #787774;
+    margin-bottom: 8px;
+}
+
+.card-link {
+    font-size: 13px;
+    font-weight: 500;
+    color: #2eaadc;
+}
+
+footer {
+    margin-top: 80px;
+    padding-top: 24px;
+    border-top: 1px solid #e8e8e5;
+}
+
+footer p {
+    font-size: 13px;
+    color: #b4b4b0;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 48px 16px 32px;
+    }
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    .project-card {
+        padding: 16px;
+    }
+}
