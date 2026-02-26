@@ -1,0 +1,114 @@
+=============================================================
+TWILIO A2P 10DLC CAMPAIGN REGISTRATION — BIBAGER
+=============================================================
+Pre-filled answers for the Twilio US A2P 10DLC Registration form.
+Copy and paste each field into the corresponding form field.
+
+-------------------------------------------------------------
+A2P Brand: My Starter Profile
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+Available A2P Campaign use cases: Sole Proprietor
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+Messaging Service: Create new Messaging Service
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+Campaign Description (paste this):
+-------------------------------------------------------------
+Bibager is a personal side-projects platform. This campaign
+sends automated, one-way SMS notifications from Bibager
+projects to the sole proprietor (account owner) only. Alerts
+include stock trade signals from the RZE trading platform,
+contact reminders from Personal CRM, and workflow completion
+notifications from N8N automation. No marketing messages are
+sent. Only one recipient receives messages.
+
+-------------------------------------------------------------
+Sample Message #1 (paste this):
+-------------------------------------------------------------
+[RZE] Trade Alert: AAPL buy signal detected. Current price
+$187.42, target $195.00, stop $182.50. Confidence: High.
+
+-------------------------------------------------------------
+Sample Message #2 (paste this):
+-------------------------------------------------------------
+[RZE] SPY Zone Update: SPY has entered the caution zone at
+$542.18. Consider tightening stops on open positions.
+
+-------------------------------------------------------------
+Sample Message #3 (paste this):
+-------------------------------------------------------------
+[CRM] Reminder: You haven't contacted Sarah Chen in 30 days.
+Last interaction: Jan 27 coffee meeting.
+
+-------------------------------------------------------------
+Sample Message #4 (paste this):
+-------------------------------------------------------------
+[N8N] Workflow complete: "Daily Stock Screener" finished
+successfully. 3 new signals found. Check RZE dashboard.
+
+-------------------------------------------------------------
+Sample Message #5 (paste this):
+-------------------------------------------------------------
+[N8N] Workflow alert: "Database Backup" failed at 3:15 AM.
+Error: Connection timeout. Please check server status.
+
+-------------------------------------------------------------
+Message Contents (checkboxes):
+-------------------------------------------------------------
+[ ] Messages will include embedded links — DO NOT CHECK
+[ ] Messages will include phone numbers — DO NOT CHECK
+[ ] Messages include content related to direct lending
+    or other loan arrangement — DO NOT CHECK
+[ ] Messages include age-gated content as defined by
+    Carrier and CTIA guidelines — DO NOT CHECK
+
+-------------------------------------------------------------
+How do end-users consent to receive messages? (paste this):
+-------------------------------------------------------------
+The sole proprietor (account owner) consents to receive
+messages by personally configuring their own phone number
+in the Bibager platform settings. Only the account owner
+can add their phone number, and only one phone number is
+supported. The account owner can remove their number at
+any time through the platform settings or by replying STOP
+to any message. No other individuals receive messages from
+this campaign.
+
+-------------------------------------------------------------
+Privacy Policy URL (paste this):
+-------------------------------------------------------------
+https://bibager.com/sms/privacy-policy.html
+
+-------------------------------------------------------------
+Terms and Conditions URL (paste this):
+-------------------------------------------------------------
+https://bibager.com/sms/terms-and-conditions.html
+
+-------------------------------------------------------------
+Opt-in Keywords (paste this):
+-------------------------------------------------------------
+START, SUBSCRIBE
+
+-------------------------------------------------------------
+Opt-in Message (paste this):
+-------------------------------------------------------------
+Bibager: You are now opted in to receive automated
+notifications from Bibager projects. Msg frequency varies.
+Msg & data rates may apply. Reply HELP for help, STOP to
+opt out.
+
+=============================================================
+NOTES
+=============================================================
+- Deploy the Privacy Policy and Terms pages BEFORE submitting
+  this registration. Twilio reviewers will check the URLs.
+- The campaign type is "Sole Proprietor" since messages go
+  only to the account owner.
+- Keep messages under 160 characters when possible to avoid
+  multi-segment charges.
+=============================================================
