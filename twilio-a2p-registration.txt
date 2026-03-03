@@ -68,6 +68,18 @@ Message Contents (checkboxes):
     Carrier and CTIA guidelines — DO NOT CHECK
 
 -------------------------------------------------------------
+Opt-in Type: Web Form
+-------------------------------------------------------------
+(Changed from "Verbal" — rejection code 30511 requires a
+verbal consent script. Web Form is correct since the account
+owner opts in via the Bibager platform settings web interface.)
+
+-------------------------------------------------------------
+Proof of consent (opt-in) collected (paste this):
+-------------------------------------------------------------
+https://bibager.com/sms/
+
+-------------------------------------------------------------
 How do end-users consent to receive messages? (paste this):
 -------------------------------------------------------------
 The sole proprietor (account owner) consents to receive
@@ -111,4 +123,10 @@ NOTES
   only to the account owner.
 - Keep messages under 160 characters when possible to avoid
   multi-segment charges.
+- RESUBMISSION (2026-03-02): Original submission rejected with
+  code 30511 "Verbal Consent Script Must Be Provided." Fix:
+  change Opt-in Type from "Verbal" to "Web Form" and keep
+  proof of consent URL as https://bibager.com/sms/ which has
+  the Opt-In & Consent section with all CTIA disclosures.
+  Resubmit within 7 days for prioritized review.
 =============================================================
