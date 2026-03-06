@@ -123,10 +123,30 @@ NOTES
   only to the account owner.
 - Keep messages under 160 characters when possible to avoid
   multi-segment charges.
-- RESUBMISSION (2026-03-02): Original submission rejected with
-  code 30511 "Verbal Consent Script Must Be Provided." Fix:
-  change Opt-in Type from "Verbal" to "Web Form" and keep
-  proof of consent URL as https://bibager.com/sms/ which has
-  the Opt-In & Consent section with all CTIA disclosures.
-  Resubmit within 7 days for prioritized review.
+- RESUBMISSION #1 (2026-03-02): Original submission rejected
+  with code 30511 "Verbal Consent Script Must Be Provided."
+  Fix: changed Opt-in Type from "Verbal" to "Web Form" and
+  kept proof of consent URL as https://bibager.com/sms/.
+- RESUBMISSION #2 (2026-03-05): Rejected again with code
+  30513 "Opt-in language is unclear and not sufficient."
+  Fix: Completely redesigned the SMS landing page to include:
+  1. A visible opt-in form with phone number input field
+  2. Unchecked checkbox with explicit TCPA consent language:
+     "I agree to receive automated SMS text messages from
+     Bibager..." (standalone, not buried in ToS/Privacy)
+  3. Branded with company name prominently displayed
+  4. Message types explicitly listed (trade alerts, contact
+     reminders, workflow notifications)
+  5. All required disclosures: frequency varies, msg & data
+     rates may apply, STOP to unsubscribe, HELP for help,
+     consent not a condition of purchase
+  6. Separate disclosure box with links to Privacy Policy
+     and Terms & Conditions
+  7. SMS Program Details section with full CTIA disclosures
+  Key changes per Twilio best practices:
+  - Consent is standalone and prominent (not embedded in ToS)
+  - Explicit "I agree to receive" language with checkbox
+  - Company name (Bibager) is branded in consent text
+  - Use-case specific (lists exact message types)
+  - Express written consent via unchecked checkbox
 =============================================================

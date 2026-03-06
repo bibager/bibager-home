@@ -53,12 +53,12 @@ Static homepage for **bibager.com** — a hub linking to various side projects a
 - SMS pages use `../mascot.png` relative path for the mascot image
 
 ## Current Task
-None — Twilio SMS A2P 10DLC compliance work is complete. Awaiting next task.
+None — SMS landing page redesigned for Twilio toll-free resubmission. Awaiting next task.
 
 ## Next Steps
-- Deploy the SMS pages to bibager.com (Privacy Policy and Terms must be live before submitting Twilio A2P registration)
-- Submit the A2P 10DLC registration using `twilio-a2p-registration.txt`
-- Commit all new files to git
+- Deploy updated SMS pages to bibager.com
+- Resubmit toll-free verification in Twilio console (within 7 days for prioritized review)
+- Commit changes to git
 
 ## Workflow Conventions
 - **CLAUDE.md is updated immediately** when we make an important decision, complete a meaningful step, or establish a convention — not deferred to end of session
@@ -78,3 +78,16 @@ None — Twilio SMS A2P 10DLC compliance work is complete. Awaiting next task.
 - Added "Twilio SMS" card to homepage (5th card, links to sms/ locally)
 - Created `twilio-a2p-registration.txt` with all pre-filled campaign info (description, 5 sample messages, consent, URLs, opt-in keywords/message, checkbox guidance)
 - Design docs saved to `docs/plans/`
+
+### 2026-03-05 — Toll-Free Verification Resubmission (Error 30513)
+- Rejection reason: "Opt-in language is unclear and not sufficient" (Error 30513)
+- Root cause: No visible opt-in form on SMS page; consent was descriptive text, not an actionable mechanism
+- Redesigned `sms/index.html` with a prominent opt-in form featuring:
+  - Phone number input field
+  - Unchecked checkbox with explicit TCPA consent language ("I agree to receive automated SMS text messages from Bibager...")
+  - Consent standalone and visually separated (not buried in ToS/Privacy)
+  - All CTIA required disclosures (frequency, rates, STOP, HELP, not condition of purchase)
+  - Branded with company name in consent text
+  - Links to Privacy Policy and Terms & Conditions in disclosure box
+- Added form styles to `sms/sms-style.css`
+- Updated `twilio-a2p-registration.txt` with resubmission #2 notes
